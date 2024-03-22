@@ -1,0 +1,37 @@
+---------------Server---------------
+IDE: Eclipse
+Server: Apache Tomcat
+Languages: 
+	- Backend: Java
+	- Frontend: HTML, CSS & JS
+	- Database: SQL
+General info: 
+	- Jdk -> Java 21
+Downloads:
+	- JDK: https://www.oracle.com/es/java/technologies/downloads/#java21
+	- Eclipse: https://www.eclipse.org/downloads/packages/
+	- Apache TomCat: https://tomcat.apache.org/download-10.cgi
+	- Xampp: https://www.apachefriends.org/es/index.html
+
+Steps: 
+1st: You need to download your Java Development kit. Go first link and install on the predeterminate location. 
+Try on remember the path because we need it on next step.
+
+2nd: Download eclipse packages. You will get a installator. Click on "Eclipse IDE for Enterprise Java and Web Developers"
+and select the JDK on the path you have installed on step 1. 
+
+3rd: You have to install apache to launch your server online. When you install you will need to stop service. 
+(windows+ "monitor tomcat" + allow + right click + "Stop service"). When you stop the service we need to configure
+on our eclipse. Click down on "Servers" and double clicl on Tomcat. You just need to follow the steps and change
+Tomcat admin Port from "-" to "9000". When you run the next Dynamic Web Project its will get open on internet. 
+
+4rd: If you need to use a DataBase you can download xampp. You will see an easy interface. Just need to start Apache
+and MySQL. On SQL click on admin and configure your DB. (Then you will need to connect with it on your code)
+---------------Files---------------
+
+---------------DataBase---------------
+
+
+
+
+Copyright @Ivan_CdL (Social media) || icorraldeloma@gmail.com (Gmail)
