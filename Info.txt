@@ -7,13 +7,13 @@ Languages:
 	- Database: SQL
 General info: 
 	- Jdk -> Java 21
-Downloads:
+---------------Downloads---------------
 	- JDK: https://www.oracle.com/es/java/technologies/downloads/#java21
 	- Eclipse: https://www.eclipse.org/downloads/packages/
 	- Apache TomCat: https://tomcat.apache.org/download-10.cgi
 	- Xampp: https://www.apachefriends.org/es/index.html
 
-Steps: 
+---------------Steps---------------
 1st: You need to download your Java Development kit. Go first link and install on the predeterminate location. 
 Try on remember the path because we need it on next step.
 
@@ -30,7 +30,7 @@ and MySQL. On SQL click on admin and configure your DB. (Then you will need to c
 ---------------Files---------------
 
 ---------------DataBase---------------
-
+Users: 
 
 
 
