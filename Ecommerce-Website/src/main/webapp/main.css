@@ -12,13 +12,18 @@ body {
 #contacto-redes {
     background-color: rgb(54, 54, 54);
     color: #ffffff;
-    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    padding: 1px;
     font-size: 80%;
 }
 
-#contacto {
-    text-align: left;
+.image-social-media img {
+    width: 5%; /* Ajusta este valor según el tamaño deseado */
+    height: auto;
 }
+
+
 /* Div logo and menu */
 #logo-menu {
     display: flex;
@@ -46,6 +51,10 @@ body {
     margin: 0 15px;
 }
 
+#logo-menu nav a:hover {
+	color:black;
+	text-decoration: underline;
+}
 #logo-menu button {
     background-color: rgb(54, 54, 54);
     color: white;
@@ -54,11 +63,13 @@ body {
     cursor: pointer;
 }
 
-#btn-busqueda:hover{
-    background-color: #a8a8a8;
-    color: rgb(54, 54, 54);
+#lens-image {
+    width: 50px !important;
+    height: auto !important;
 }
 
+
+/* Header ends */ 
 #rotacion-imagenes img {
     display: none;
     width: 100%; 
