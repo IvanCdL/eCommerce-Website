@@ -16,11 +16,23 @@ body {
     justify-content: space-between;
     padding: 1px;
     font-size: 80%;
+    
 }
 
+#contacto{
+	width:50%;
+}
+
+#social-media{
+	width:50%;
+}
+
+
 .image-social-media img {
-    width: 5%; /* Ajusta este valor según el tamaño deseado */
+    width: 2%; /* Ajusta este valor según el tamaño deseado */
     height: auto;
+    margin-right: 1em;
+    
 }
 
 
@@ -33,9 +45,7 @@ body {
     padding: 20px;
 }
 
-#btn-busqueda:hover{
-    background-color: #4da1fc;
-}
+
 
 #logo-menu img {
     height: 50px;

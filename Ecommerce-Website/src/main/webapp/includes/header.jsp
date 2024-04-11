@@ -1,18 +1,27 @@
 <meta charset="UTF-8">
 <!-- Div contact and social media -->
+<!-- Check CSS, email and phone number. two different lines. Also link images go smaller when window change size -->
 <div id="contacto-redes">
-	<p id="contacto">
-		<a style="color: white;" href="https://wa.me/34689255067">Teléfono: +34 689 255 067</a> | 
+	<span id="contacto">
+		<a style="color: white;" href="https://wa.me/34689255067">Teléfono: +34 689 255 067</a>
+		 | 
 		<a style="color: white;" href="mailto:icorraldeloma@gmail.com">Correo: icorraldeloma@gmail.com</a>
-	</p>
-	<p style="text-align:right" id="social-media">
-		<a class="image-social-media" href="https://www.instagram.com/passezapaterias/">
-            <img src="${pageContext.request.contextPath}/page-images/logo.png" alt="Instagram">
+	</span>
+	<span style="text-align:right" id="social-media">
+		<a class="image-social-media" href="https://www.facebook.com/passezapateriasmadrid/?locale=es_ES">
+            <img src="${pageContext.request.contextPath}/page-images/facebook.png" alt="Facebook-logo">
         </a>
-		<!-- Más íconos de redes sociales aquí -->
-	</p>
+        <a class="image-social-media" href="https://www.instagram.com/passezapaterias/">
+            <img src="${pageContext.request.contextPath}/page-images/youtube.png" alt="Youtube-logo">
+        </a>
+        <a class="image-social-media" href="https://www.instagram.com/passezapaterias/">
+            <img src="${pageContext.request.contextPath}/page-images/instagram.png" alt="Instagram-logo">
+        </a>
+        <a class="image-social-media" href="https://www.instagram.com/passezapaterias/">
+            <img src="${pageContext.request.contextPath}/page-images/whatsapp.png" alt="Whatsapp-logo">
+        </a>
+	</span>
 </div>
-
 
 <!-- Div logo and menu -->
 <div id="logo-menu">
